@@ -1,6 +1,6 @@
 Name:           libquvi
 Version:        0.4.1 
-Release:        3%{?dist}
+Release:        5%{?dist}
 Summary:        A cross-platform library for parsing flash media stream
 
 Group:          Applications/Internet
@@ -54,6 +54,12 @@ rm -f ${RPM_BUILD_ROOT}%{_libdir}/%{name}.la
 %{_includedir}/quvi/
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.4.1-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.1-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.4.1-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
